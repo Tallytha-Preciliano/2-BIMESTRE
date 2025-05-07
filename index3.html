@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body style="background: #f7f7f7; color: #333; font-family: Arial, sans-serif;">
+    <div style="width: 50%; margin: auto; padding: 10px; background: white; border: 2px solid #ccc; border-radius: 10px;">
+      
+      <h1>Cadastro</h1>
+      
+      <form>
+        <p>Nome: <input type="text" name="nome" id="nome" placeholder="Digite seu nome"></p>  
+  
+        <p>E-mail: <input type="email" name="email" id="email" placeholder="Digite seu e-mail"></p>
+  
+        <p>Senha: <input type="password" name="senha" id="senha" placeholder="Digite sua senha"></p>
+  
+        <p>Confirmação de senha: <input type="password" name="confirmacao_senha" id="confirmacao_senha" placeholder="Confirme sua senha"></p> 
+  
+        <p>Idade: <input type="number" name="idade" id="idade" placeholder="Digite sua idade"></p>
+  
+        <p>Estado:</p>
+        <div style="border: 1px dashed #aaa; padding: 10px; background-color: #f0f0f0; border-radius: 5px; margin-bottom: 15px;">
+          <input type="checkbox" name="estado" id="Acre" value="AC"><span> Acre </span><br>
+          <input type="checkbox" name="estado" id="Para" value="PA"><span> Pará </span><br>
+          <input type="checkbox" name="estado" id="Amazonas" value="AM"><span> Amazonas </span>
+        </div>
+  
+        <button type="submit" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">
+          Enviar
+        </button>
+      </form>
+      
+    </div>
+  </body>
+  
